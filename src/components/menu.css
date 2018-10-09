@@ -1,0 +1,109 @@
+.wrapper {
+  height: 80vh;
+  background: url('../assets/images/cover.jpg') no-repeat center center fixed;
+  size: cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.767);
+}
+
+.logo {
+  width: 150px;
+}
+
+.cart {
+  font-size: 1.8em;
+  color: #0a2d7e;
+  cursor: pointer;
+}
+
+.cart:hover {
+  color: #154ac5;
+}
+
+.hero {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.hero h2 {
+  font-size: 120px;
+  font-weight: 700;
+  color: #f8ff09;
+}
+
+.hero h3 {
+  font-size: 30px;
+}
+
+.hero h4 {
+  font-size: 18px;
+}
+
+.btn-white {
+  color: #fff;
+  border: 2px solid #fff;
+  line-height: 38px;
+  position: relative;
+  height: 45px;
+  padding: 5px 30px;
+  background: transparent;
+}
+
+.btn-white:hover {
+  color: rgb(185, 197, 188);
+  text-decoration: none;
+}
+
+.shipping-area {
+  margin: 50px 50px;
+}
+
+.shipping-list {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ebebeb;
+}
+
+.shipping-box {
+  display: flex;
+  padding-right: 100px;
+  margin-right: 100px;
+  border-right: 1px solid #ddd;
+}
+
+.shipping-box-last {
+  display: flex;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.shipping-icon img {
+  vertical-align: middle;
+  width: 46px;
+  height: 46px;
+}
+
+.shipping-content {
+  margin-left: 15px;
+}
+
+.shipping-content > h6 {
+  color: #363f4d;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+}
